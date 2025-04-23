@@ -1,0 +1,15 @@
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.AssemblyInfoInputs.cache
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.AssemblyInfo.cs
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.csproj.CoreCompileInputs.cache
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.sourcelink.json
+/workspaces/lista3/atv2/bin/Debug/net8.0/atv2
+/workspaces/lista3/atv2/bin/Debug/net8.0/atv2.deps.json
+/workspaces/lista3/atv2/bin/Debug/net8.0/atv2.runtimeconfig.json
+/workspaces/lista3/atv2/bin/Debug/net8.0/atv2.dll
+/workspaces/lista3/atv2/bin/Debug/net8.0/atv2.pdb
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.dll
+/workspaces/lista3/atv2/obj/Debug/net8.0/refint/atv2.dll
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.pdb
+/workspaces/lista3/atv2/obj/Debug/net8.0/atv2.genruntimeconfig.cache
+/workspaces/lista3/atv2/obj/Debug/net8.0/ref/atv2.dll
