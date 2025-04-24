@@ -12,8 +12,9 @@ for (int i = 0; i < decimais; i++)
     // Soma o termo à aproximação de pi
     pi=pi+termo;
 }
-
-        
+//conta final para obter o PI aproximado
 pi=pi*4;
-
+//mostrando para o usuario o resultado
 Console.WriteLine($"Aproximação de pi usando a série de Leibniz: {pi}");
+
+Console.ReadKey();
