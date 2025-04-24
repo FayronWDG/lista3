@@ -1,20 +1,37 @@
-﻿int decimais=0
-double pi=0,termo=0;
+﻿int x =1,l=0;
+ int f =0;
+Console.WriteLine("digite o numero da sequencia de fibonacci");
+    int  n = int.Parse(Console.ReadLine());
 
-Console.WriteLine("\n\nCalculando aproximação de PI\n\n");
-
-Console.WriteLine("");
-
-for (int i = 0; i < decimais; i++)
-{
-    // Cálculo do termo da série
-    termo=Math.Pow(-1, i) / (2 * i + 1);
-    // Soma o termo à aproximação de pi
-    pi=pi+termo;
+for (int i=0; i<=n; i++){
+if (n==0) {
+   Console.WriteLine("numero invalido");
+   break;
 }
-//conta final para obter o PI aproximado
-pi=pi*4;
-//mostrando para o usuario o resultado
-Console.WriteLine($"Aproximação de pi usando a série de Leibniz: {pi}");
 
-Console.ReadKey();
+if (i==0){
+    Console.WriteLine($"{i}");
+}
+if (i>0){
+     Console.WriteLine($"{x}");
+   f=x+l;
+    l=x;
+    x=f;
+
+}
+
+}
+double termos=0; // Número de termos a serem usados na aproximação
+        Console.Write("Digite o número de termos para a aproximação de PI: ");
+        termos = int.Parse(Console.ReadLine());
+
+        double pi = 0;
+        for (int k = 0; k < termos; k++)
+        {
+            double termo = Math.Pow(-1, k) / (2 * k + 1);
+            pi += termo;
+        }
+
+        pi *= 4;
+
+        Console.WriteLine($"Aproximação de PI com {termos} termos: {pi}");
